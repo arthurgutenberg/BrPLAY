@@ -1,8 +1,9 @@
 
 # Projeto Prático de BD II — Agente de IA (Python + PostgreSQL)
 
-**Disciplina:** Banco de Dados II — Prof. José Antonio de Paiva Júnior  
-**Entrega:** 11/08/2025
+**Alunos:** Albert Pereira, Arthur Gutenberg, Rodrigo Paiva
+**Disciplina:** Banco de Dados II — Prof. José Antonio de Paiva Júnior 
+**Nome:** BrPLAY - O streaming de todos os brasileiros.
 
 Este projeto implementa um **Agente Simples de Consulta** para um sistema fictício de **estoque, vendas e clientes**.
 
@@ -17,7 +18,7 @@ Este projeto implementa um **Agente Simples de Consulta** para um sistema fictí
 ## Como Executar
 
 ### 1) Preparar o Banco de Dados
-1. (Opcional) Crie o banco:
+1. Crie o banco:
    ```sql
    CREATE DATABASE loja_ai;
    ```
@@ -33,13 +34,13 @@ source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
 pip install psycopg2-binary
 ```
 
-### 3) Definir variáveis de conexão (opcional)
+### 3) Definir variáveis de conexão
 Valores padrão usados por `agent.py`:
 - `DB_HOST=localhost`
 - `DB_PORT=5432`
-- `DB_NAME=loja_ai`
+- `DB_NAME=BrPLAY`
 - `DB_USER=postgres`
-- `DB_PASS=postgres`
+- `DB_PASS=admin`
 
 Você pode sobrescrever via ambiente:
 ```bash
@@ -90,4 +91,4 @@ Retorna **ID, nome e total gasto** do cliente com maior soma de compras.
 
 ---
 
-**Autores:** (preencha com os nomes)
+**Powerd By:** F.O.F.
