@@ -1,8 +1,8 @@
 -- Projeto Prático de BD II - Agente de IA
+-- BrPLAY - O streaming de todos os brasileiros
 -- Autor: Albert Pereira, Arthur GUtenberg, Rodrigo Paiva
 -- Banco: PostgreSQL
 
--- (Opcional) Criar database
 -- CREATE DATABASE BrPLAY;
 -- \c BrPLAY;
 
