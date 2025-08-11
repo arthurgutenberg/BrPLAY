@@ -2,7 +2,9 @@
 # Projeto Prático de BD II — Agente de IA (Python + PostgreSQL)
 
 **Alunos:** Albert Pereira, Arthur Gutenberg, Rodrigo Paiva
+
 **Disciplina:** Banco de Dados II — Prof. José Antonio de Paiva Júnior
+
 **Nome:** BrPLAY - O streaming de todos os brasileiros.
 
 Este projeto implementa um **Agente Simples de Consulta** para um sistema fictício de **estoque, vendas e clientes**.
@@ -20,11 +22,11 @@ Este projeto implementa um **Agente Simples de Consulta** para um sistema fictí
 ### 1) Preparar o Banco de Dados
 1. Crie o banco:
    ```sql
-   CREATE DATABASE loja_ai;
+   CREATE DATABASE BrPLAY;
    ```
 2. Conecte-se ao banco e rode o script:
    ```bash
-   psql -d loja_ai -f schema.sql
+   psql -d BrPLAY -f schema.sql
    ```
 
 ### 2) Configurar o Python
