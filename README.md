@@ -5,7 +5,7 @@ Este projeto implementa um **Agente Simples de Consulta** para um sistema fictí
 
 - **Alunos:** Albert Pereira, Arthur Gutenberg, Rodrigo Paiva
 - **Disciplina:** Banco de Dados II — Prof. José Antonio de Paiva Júnior
-- **Nome:** BrPLAY - O streaming de todos os brasileiros.
+- **Nome:** BrPLAY
 
 ## Entregáveis
 - `schema.sql` — Criação das tabelas, *seed* de dados e **functions** exigidas:
