@@ -9,7 +9,7 @@ import psycopg2.extras
 
 DB_HOST = os.getenv("DB_HOST", "localhost")
 DB_PORT = int(os.getenv("DB_PORT", "5432"))
-DB_NAME = os.getenv("DB_NAME", "BRPLAY")
+DB_NAME = os.getenv("DB_NAME", "BrPLAY")
 DB_USER = os.getenv("DB_USER", "postgres")
 DB_PASS = os.getenv("DB_PASS", "admin")
 
