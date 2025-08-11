@@ -36,7 +36,7 @@ def dispatch_query(cur, question: str):
         cur.execute("SELECT * FROM produto_mais_vendido();")
         row = cur.fetchone()
         if row:
-            print("\n📦 Produto mais vendido")
+            print("\n Produto mais vendido")
             print(f"ID: {row['produto_id']} | Nome: {row['nome']}")
             print(f"Quantidade total: {row['quantidade_total']} | Faturamento: R$ {row['faturamento']:.2f}\n")
         else:
@@ -46,7 +46,7 @@ def dispatch_query(cur, question: str):
     if any(k in q for k in ["estoque", "como está o estoque", "situação do estoque", "status do estoque"]):
         cur.execute("SELECT * FROM situacao_estoque();")
         rows = cur.fetchall()
-        print("\n📊 Situação do Estoque")
+        print("\n Situação do Estoque")
         print(f"{'ID':<4} {'Produto':<22} {'Qtd':>5} {'Min':>5} {'Status':>10}")
         for r in rows:
             print(f"{r['produto_id']:<4} {r['nome']:<22} {r['quantidade']:>5} {r['minimo']:>5} {r['status']:>10}")
@@ -57,7 +57,7 @@ def dispatch_query(cur, question: str):
         cur.execute("SELECT * FROM melhor_cliente();")
         row = cur.fetchone()
         if row:
-            print("\n🧑‍💼 Melhor cliente")
+            print("\n Melhor cliente")
             print(f"ID: {row['cliente_id']} | Nome: {row['nome']} | Total gasto: R$ {row['total_gasto']:.2f}\n")
         else:
             print("Não há vendas registradas ainda.\n")
