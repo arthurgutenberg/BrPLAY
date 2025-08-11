@@ -1,11 +1,10 @@
-
 -- Projeto Prático de BD II - Agente de IA
--- Autor: (substitua pelo(s) nome(s) do(s) aluno(s))
+-- Autor: Albert Pereira, Arthur GUtenberg, Rodrigo Paiva
 -- Banco: PostgreSQL
 
 -- (Opcional) Criar database
--- CREATE DATABASE loja_ai;
--- \c loja_ai;
+-- CREATE DATABASE BrPLAY;
+-- \c BrPLAY;
 
 -- Limpeza (drop)
 DROP TABLE IF EXISTS itensvenda CASCADE;
