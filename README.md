@@ -1,11 +1,11 @@
 
 # Projeto Prático de BD II — Agente de IA (Python + PostgreSQL)
 
+Este projeto implementa um **Agente Simples de Consulta** para um sistema fictício de **estoque, vendas e clientes**.
+
 - **Alunos:** Albert Pereira, Arthur Gutenberg, Rodrigo Paiva
 - **Disciplina:** Banco de Dados II — Prof. José Antonio de Paiva Júnior
 - **Nome:** BrPLAY - O streaming de todos os brasileiros.
-
-Este projeto implementa um **Agente Simples de Consulta** para um sistema fictício de **estoque, vendas e clientes**.
 
 ## Entregáveis
 - `schema.sql` — Criação das tabelas, *seed* de dados e **functions** exigidas:
