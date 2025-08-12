@@ -91,4 +91,4 @@ Retorna **ID, nome e total gasto** do cliente com maior soma de compras.
 
 ---
 
-**Powerd By:** F.O.F.
+**Powerd By: Arthur Gutenberg, Albert Pereira e Rodrigo Paiva**
